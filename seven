@@ -1,0 +1,19 @@
+tir = float(input('Значение звука: '))
+if tir >= 0 and tir < 2.0:
+  print('минимальное')
+if tir >= 2.0 and tir < 3.0:
+  print('очень слабое')
+if tir >= 3.0 and tir < 4.0:
+  print('слабое')
+if tir >= 4.0 and tir < 5.0:
+  print('промежуточное')
+if tir >= 5.0 and tir < 6.0:
+  print('умеренное')
+if tir >= 6.0 and tir < 7.0:
+  print('сильное')
+if tir >= 7.0 and tir < 8.0:
+  print('очень сильное')
+if tir >= 8.0 and tir < 10.0:
+  print('огромное')
+if tir >= 10.0:
+  print('разрушительное')
